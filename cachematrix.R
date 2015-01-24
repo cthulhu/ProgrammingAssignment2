@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+# Programming Assignment 2
+#
+# MOOC: Coursera RProg-010
+# Student: Stanislav O. Pogrebnyak
 
 makeCacheMatrix <- function(original_matrix = matrix()) {
   # This function creates a special "matrix" object that can cache its inverse.
@@ -34,9 +34,6 @@ makeCacheMatrix <- function(original_matrix = matrix()) {
   )
 }
 
-
-## Write a short comment describing this function
-
 cacheSolve <- function( c_m, ... ) {
   # This function computes the inverse of the special "matrix" 
   # returned by makeCacheMatrix above. 
@@ -45,6 +42,9 @@ cacheSolve <- function( c_m, ... ) {
   #
   # Args:
   #   c_m: matrix to cache
+  #
+  # Returns:
+  #   inverted matrix
   
   inverted_matrix <- c_m$get_inverse()
   
